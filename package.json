@@ -1,0 +1,22 @@
+{
+  "name": "webchat_plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx parcel build --out-file webchat-plugin.js src/index.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "alias": {
+    "react": "./alias/react"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
